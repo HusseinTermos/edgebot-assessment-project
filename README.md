@@ -2,13 +2,13 @@
 
 # Introduction
 
-This is a short (human-written!) README file to explain the architecture of the project and how to run the code.
+This is a brief (human-written!) README file to explain the architecture of the project and how to run the code.
 
 # Setting up and Running the Project
 
 ## Setting up the environment
 
-To set up the environment, you will need to
+To set up the environment, you will need to:
 
 1. Install dependencies:
 
@@ -18,8 +18,8 @@ pip install -r requirements.txt
 
 2. Set up the `.env` file. You will need to define the following variables:
 
-- `SERIES_DATA_PATH`: This will hold the path to the provided data CSV.
-- `OUTPUT_ROOT_DIR`: This will hold the path to the directory where you wish to save the output generated from user scripts (this is further explained later on).
+  - `SERIES_DATA_PATH`: This will hold the path to the provided data CSV.
+  - `OUTPUT_ROOT_DIR`: This will hold the path to the directory where you wish to save the output generated from user scripts (this is further explained later on).
 
 ## Running the Project
 
