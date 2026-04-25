@@ -65,7 +65,7 @@ This module consists of:
 - `SeriesDataLoader`: The class responsible for handling data interactions with the provided time series CSV.
 - `UserSeriesStorage`: The class responsible for handling data interactions with the `output` directory. The series generated during every script run are saved as a JSON file in the `output` directory.
 
-_Note that I could have saved the user-generated series as a `.csv`. This has the benefit of staying consistent with the current data format and it also allows me to use the same class to access and manipulate both types of data: fixed series and user-generated series. However, since this is an assessment about system organization, I decided I would organize the data in the way I would usually opt for._
+_Note that I could have saved the user-generated series as a `.csv`. This has the benefit of staying consistent with the given data format and it also allows me to use the same class to access and manipulate both types of data: fixed series and user-generated series. However, since this is an assessment about system organization, I decided I would organize the data in the way I would usually opt for._
 
 ## Application Tier (`engine/`)
 
