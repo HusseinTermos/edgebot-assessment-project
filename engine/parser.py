@@ -25,7 +25,7 @@ def parse_command(line):
     transformation_id = m.group("transformation_id")
 
     config_str = [x.strip() for x in args1.split(",")] if args1 else []
-    if transformation_id == 'Fetch': # TODO: idk man
+    if transformation_id == 'Fetch':
         config = config_str
     else:
         config = []

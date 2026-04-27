@@ -67,7 +67,6 @@ class Transformation:
     def constant_series(k: float, A: list[float | int]) -> list[float]:
         return [k] * len(A)
 
-    #TODO: 0 or 1 in type hint
     @staticmethod
     def portfolio_simulation(balance: float, price: list[float], entry: list[int], exit: list[int]) -> list[float]:
         n = len(price)
