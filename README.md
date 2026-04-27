@@ -2,13 +2,13 @@
 
 # Introduction
 
-This is a short (human-written!) README file to explain the architecture of the project and how to run the code.
+This is a brief (human-written!) README file to explain the architecture of the project and how to run the code.
 
 # Setting up and Running the Project
 
 ## Setting up the environment
 
-To set up the environment, you will need to
+To set up the environment, you will need to:
 
 1. Install dependencies:
 
@@ -18,8 +18,8 @@ pip install -r requirements.txt
 
 2. Set up the `.env` file. You will need to define the following variables:
 
-- `SERIES_DATA_PATH`: This will hold the path to the provided data CSV.
-- `OUTPUT_ROOT_DIR`: This will hold the path to the directory where you wish to save the output generated from user scripts (this is further explained later on).
+  - `SERIES_DATA_PATH`: This will hold the path to the provided data CSV.
+  - `OUTPUT_ROOT_DIR`: This will hold the path to the directory where you wish to save the output generated from user scripts (this is further explained later on).
 
 ## Running the Project
 
@@ -65,7 +65,7 @@ This module consists of:
 - `SeriesDataLoader`: The class responsible for handling data interactions with the provided time series CSV.
 - `UserSeriesStorage`: The class responsible for handling data interactions with the `output` directory. The series generated during every script run are saved as a JSON file in the `output` directory.
 
-_Note that I could have saved the user-generated series as a `.csv`. This has the benefit of staying consistent with the current data format and it also allows me to use the same class to access and manipulate both types of data: fixed series and user-generated series. However, since this is an assessment about system organization, I decided I would organize the data in the way I would usually opt for._
+_Note that I could have saved the user-generated series as a `.csv`. This has the benefit of staying consistent with the given data format and it also allows me to use the same class to access and manipulate both types of data: fixed series and user-generated series. However, since this is an assessment about system organization, I decided I would organize the data in the way I would usually opt for._
 
 ## Application Tier (`engine/`)
 
